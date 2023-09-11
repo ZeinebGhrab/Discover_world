@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#000000"
+    tools:context=".MainActivityQuiz">
+
+    <ImageView
+        android:id="@+id/Rocks"
+        android:layout_width="407dp"
+        android:layout_height="107dp"
+        android:src="@mipmap/quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="374dp"
+        android:layout_height="58dp"
+        android:layout_gravity="start"
+        android:background="#00CED1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/quiz1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <RadioGroup
+        android:id="@+id/options1_radio_group"
+        android:layout_width="348dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="128dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/optionQ11"
+            android:layout_width="129dp"
+            android:layout_height="62dp"
+            android:layout_margin="16dp"
+            android:text="Colombie"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+
+        <RadioButton
+            android:id="@+id/optionQ12"
+            android:layout_width="161dp"
+            android:layout_height="62dp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="56dp"
+            android:text="Pérou"
+            tools:layout_editor_absoluteX="104dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="366dp"
+        android:layout_height="33dp"
+        android:layout_gravity="start"
+        android:background="#008000"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/quiz2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <RadioGroup
+        android:id="@+id/options2_radio_group"
+        android:layout_width="348dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="316dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/optionQ21"
+            android:layout_width="140dp"
+            android:layout_height="59dp"
+            android:layout_margin="16dp"
+            android:text="Barcelone"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+        <RadioButton
+            android:id="@+id/optionQ22"
+            android:layout_width="131dp"
+            android:layout_height="61dp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="56dp"
+            android:text="Floride"
+            tools:layout_editor_absoluteX="104dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="369dp"
+        android:layout_height="72dp"
+        android:layout_gravity="start"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/quiz3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <RadioGroup
+        android:id="@+id/options3_radio_group"
+        android:layout_width="308dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="528dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/optionQ31"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Croatie"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <RadioButton
+            android:id="@+id/optionQ32"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="56dp"
+            android:text="Grèce"
+            tools:layout_editor_absoluteX="104dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/affiche1"
+        android:layout_width="239dp"
+        android:layout_height="34dp"
+        android:text=""
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <TextView
+        android:id="@+id/affiche3"
+        android:layout_width="251dp"
+        android:layout_height="42dp"
+        android:text=""
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:padding="16dp"
+        android:text="Vérifier"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/affiche2"
+        android:layout_width="246dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
